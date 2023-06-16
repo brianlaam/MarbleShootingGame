@@ -18,7 +18,9 @@ public class MarblesShooting {
         int result3;
         int buy_marble_num = 0;
         int gamble_num = 0;
-        
+       
+        JOptionPane.showMessageDialog(null, "Welcome to the Marble Shooting Game!");
+        JOptionPane.showMessageDialog(null, "Try to win marbles as much as possible!");       
         player.displayMessage(player_money, player_marble);
         JOptionPane.showMessageDialog(null, "You can buy 1 marble using $1");          
 
